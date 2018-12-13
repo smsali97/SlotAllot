@@ -13,4 +13,26 @@ public class Timetable {
 	
 	public Timetable compareTo(Timetable t) { return null; }
 	public Timetable extractData(String s) { return null; }
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setTimeInterval(int timeInterval) {
+		this.timeInterval = timeInterval;
+	}
+	public String getName() {
+		return name;
+	}
+	public int getTimeInterval() {
+		return timeInterval;
+	}
+	public void setCriteria(Criteria criteria) {
+		this.criteria = criteria;
+	}
+	public void setForWhom(String forWhom) {
+		this.forWhom = forWhom;
+	}
+	public List<Collaborator> getCollaborators() {
+		return collaborators;
+	}
 }
