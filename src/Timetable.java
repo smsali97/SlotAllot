@@ -10,6 +10,7 @@ public class Timetable {
 	List<Collaborator> collaborators;
 	String forWhom;
 	Criteria criteria;
+	WriterFactory factory;
 	
 	public Timetable compareTo(Timetable t) { return null; }
 	public Timetable extractData(String s) { return null; }
