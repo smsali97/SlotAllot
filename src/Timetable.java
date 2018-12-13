@@ -9,6 +9,7 @@ public class Timetable {
 	Creator creator;
 	List<Collaborator> collaborators;
 	String forWhom;
+	Criteria criteria;
 	
 	public Timetable compareTo(Timetable t) { return null; }
 	public Timetable extractData(String s) { return null; }
